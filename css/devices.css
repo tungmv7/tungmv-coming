@@ -1,0 +1,61 @@
+.bg1{background-image:url(../img/bg/bg1_402880.jpg)}
+.bg2{background-image:url(../img/bg/bg2_402880.jpg)}
+.bg3{background-image:url(../img/bg/bg3_402880.jpg)}
+.bg4{background-image:url(../img/bg/bg4_402880.jpg)}
+
+@media all and (max-width:1680px),all and (max-device-width:1680px){
+	.bg1{background-image:url(../img/bg/bg1_401680.jpg)}
+	.bg2{background-image:url(../img/bg/bg2_401680.jpg)}
+	.bg3{background-image:url(../img/bg/bg3_401680.jpg)}
+	.bg4{background-image:url(../img/bg/bg4_401680.jpg)}
+}
+@media all and (max-width:1440px),all and (max-device-width:1440px){
+	_body{background-image:url(../img/bg_401440.jpg)}
+	.bg1{background-image:url(../img/bg/bg1_401440.jpg)}
+	.bg2{background-image:url(../img/bg/bg2_401440.jpg)}
+	.bg3{background-image:url(../img/bg/bg3_401440.jpg)}
+	.bg4{background-image:url(../img/bg/bg4_401440.jpg)}
+}
+@media all and (max-width:1439px),all and (max-device-width:1439px){
+	.bg1{background-image:url(../img/bg/bg1_401024.jpg)}
+	.bg2{background-image:url(../img/bg/bg2_401024.jpg)}
+	.bg3{background-image:url(../img/bg/bg3_401024.jpg)}
+	.bg4{background-image:url(../img/bg/bg4_401024.jpg)}
+	#bottom{height:160px}
+	#social{margin:65px auto 30px;text-align:center;height:35px;float:none}
+	#countdown{margin:0 auto;text-align:center;float:none}
+	#social>div,#countdown>div{display:inline-block}
+	#countdown>div>div>p.label{margin-top:135px;opacity:1}
+}
+@media all and (max-width:768px),all and (max-device-width:768px){
+	_body{background-image:url(../img/bg/bg_40768.jpg)}
+	.bg1{background-image:url(../img/bg/bg1_40768.jpg)}
+	.bg2{background-image:url(../img/bg/bg2_40768.jpg)}
+	.bg3{background-image:url(../img/bg/bg3_40768.jpg)}
+	.bg4{background-image:url(../img/bg/bg4_40768.jpg)}
+}
+@media all and (max-width:480px),all and (max-device-width:480px){
+	header{top:5%}
+	header>h1{font-size:3em !important}
+	header>h3{text-indent:10px;}
+	#bottom{height:150px}#social{font-size:1.1em;margin:0 auto 30px}
+	#social>div>ul{margin:10px 0;display:block;float:none}
+	#social>div>span{margin:10px 0;float:none;display:block}
+	#social>div>span:first-child{margin-top:15px}
+	#countdown{display:none;font:400 4em 'Rambla'}
+	#feedback{position:absolute;padding:20px 0;width:100%}
+	#feedback h2,#feedback .descr,#feedback .body{padding:0 20px}
+	#feedback h2{font-size:1.2em}#feedback>.descr{font-size:.85em}
+	#feedback>.body{height:68px;overflow:hidden}
+	#feedback>.close{margin-top:-35px;margin-right:10px}
+	#feedback form>div.inp{width:100%;text-align:center;float:none}
+	#feedback form>div.btn{margin-top:5px;width:100%;float:none;text-align:center}
+	#feedback form button{margin:0;float:none}span.email-no{position:absolute;margin-top:-23px;right:30px;white-space:nowrap}
+	#feedback .feedback-arr{left:50%;margin-left:-25px}
+}
+
+
+
+
+
+

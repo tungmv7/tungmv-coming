@@ -1,0 +1,14 @@
+/* -------------------------------------------------------------- 
+  
+   style.css
+   
+   * Includes all the necessary stylesheets in 
+   	the desired order.
+   
+-------------------------------------------------------------- */
+
+/*@import url(../../../../fonts.googleapis.com/css@family=Rambla_3A400);*/
+
+@import url(main.css);
+@import url(devices.css);
+@import url(icons.css);

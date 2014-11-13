@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Tungmv.com - Freelance Web Developer</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			
+		    // function
+		    function addBG(){
+		    	var rand=Math.ceil(Math.random()*4);
+		    	$('body').addClass('bg'+rand);
+		    }
+		    // init
+		    addBG();
+		    // call addBG per 5s
+		    setTimeout(addBG, 5000);
+
+		});
+		
+	</script>
+</head>
+<body>
+	<header>
+		<h1>tungmv.com</h1>
+		
+		<h3>I'm Tung. I'm a freelance web developer.</h3>
+		<h3>I'm strong in Yii, PHP, Javascript, Jquery, HTML, CSS</h3>
+		<h3>I have built many site based on <a href="http://www.yiiframework.com/"> <b>Yii Framework </b></a> - The best PHP framework.</h3>
+
+		<h3 style="margin-top:40px;">My awesome site are under contruction. I'll be back soon!</h3>
+	</header>
+	<section id="bottom">
+		<div id="social">
+			<div>
+				<span>Follow us</span>
+				<ul>
+					<li class="twitter"><a href="http://twitter.com/tungmv" target="_blank"></a></li>
+					<li class="facebook"><a href="http://facebook.com/tungmv" target="_blank"></a></li>
+					<li class="linkedin"><a href="http://linkedin.com/in/tungmv" target="_blank"></a></li>
+					<li class="email"><a href="mailto:tungmv7@gmail.com"></a></li>
+				</ul>
+				<span>or <a href="javascript:void(0);" id="open-feedback">tungmv7@gmail.com</a></span>
+			</div>
+		</div>
+	</section>
+	
+	<div id="pattern"></div>
+	<div id="ct" style="display:none"></div>
+</body>
+</html>
